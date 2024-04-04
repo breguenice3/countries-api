@@ -1,0 +1,47 @@
+*{
+    font-family: 'Nunito Sans';
+}
+
+.card{
+    width: 300px;
+    height: 350px;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.199);
+    cursor: pointer;
+}
+
+.card:hover{
+    transform: scale(1.05);
+    transition: ease-in-out 1s;
+}
+
+h2{
+    padding: 10px 0px;
+}
+
+.card-img{
+    width: 350px;
+    height: 160px;
+}
+
+.card-img img{
+    width: 300px;
+    height: 160px;
+}
+
+.card-info{
+    padding-left: 15px;
+}
+
+.card-info span{
+    color: black;
+    font-weight: 600;
+}
+
+.card-info p{
+    color: gray;
+}
