@@ -17,8 +17,6 @@ export default function CountryDetails() {
         countriesApi()
     }, [])
 
-    console.log(country[0]);
-
     return (
         <div>
             <div className="btn-container">

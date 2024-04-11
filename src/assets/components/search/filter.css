@@ -1,0 +1,11 @@
+select {
+    padding: 10px 25px;
+    /* background: white; */
+    margin-bottom: 50px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    color: black;
+    cursor: pointer;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.199);
+  }

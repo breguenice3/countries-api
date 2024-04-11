@@ -1,6 +1,6 @@
 import './app.css'
 import { FaRegMoon, FaMoon } from "react-icons/fa";
-import Search from './assets/components/search/search';
+import Search from './assets/components/search/filter';
 import AppRoutes from './assets/pages/appRoutes';
 
 function App() {
