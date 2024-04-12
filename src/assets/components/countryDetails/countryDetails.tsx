@@ -31,7 +31,7 @@ export default function CountryDetails() {
                 </div>
                 <div className="country-infos">
                     {country.length > 0 && <h2>{country[0].name.common}</h2>}
-                    {country.length > 0 && <div>
+                    {country.length > 0 && <div className="country-infos-second">
                         <p><span>Native Name: </span>{country[0].name.official}</p>
                         <p><span>Population: </span>{country[0].population.toLocaleString('pt-BR').replace('.', ',').replace('.', ',')}</p>
                         <p><span>Region: </span>{country[0].region}</p>

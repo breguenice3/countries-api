@@ -1,8 +1,8 @@
-*{
+* {
     font-family: 'Nunito Sans';
 }
 
-.card{
+.card {
     width: 300px;
     height: 350px;
     display: flex;
@@ -14,48 +14,48 @@
     cursor: pointer;
 }
 
-.none{
+.none {
     display: none;
 }
 
-.card:hover{
+.card:hover {
     transform: scale(1.01);
     transition: ease-in-out 0.2s;
 }
 
-h2{
+h2 {
     padding: 10px 0px;
 }
 
-.card-img{
+.card-img {
     width: 350px;
     height: 160px;
 }
 
-.card-img img{
+.card-img img {
     width: 300px;
     height: 160px;
 }
 
-.card-info{
+.card-info {
     padding-left: 15px;
 }
 
-.card-info span{
+.card-info span {
     color: black;
     font-weight: 600;
 }
 
-.card-info p{
+.card-info p {
     color: gray;
 }
 
-a{
+a {
     text-decoration: none;
     color: black;
 }
 
-.input-search{
+.input-search {
     background: url('../../img/search-outline.svg') no-repeat;
     background-size: 25px;
     background-position: 10px;
@@ -67,9 +67,34 @@ a{
     padding-left: 50px;
 }
 
-.search-container{
+.search-container {
     width: 100vw;
     padding: 50px 50px 30px 50px;
     display: flex;
     justify-content: space-between;
+}
+
+
+@media (min-width: 375px) and (max-width: 1400px) {
+
+    .card-info {
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+    }
+
+    .search-container {
+        width: 100vw;
+        padding: 30px 10px 0px 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .input-search {
+        background-size: 20px;
+        background-position: 10px;
+        width: 350px;
+    }
+
 }

@@ -73,3 +73,56 @@
     flex-wrap: wrap;
     gap: 5px;
 }
+
+@media (min-width: 375px) and (max-width: 1400px) {
+
+    .back-btn{
+        background-size: 15px;
+        padding: 10px 30px;
+        width: 120px;
+        border-radius: 0px;
+        border: 1px solid rgba(0, 0, 0, 0.192);
+    }
+
+    .btn-container{
+        width: 100vw;
+        height: 120px;
+        padding: 20px 0px 30px 20px;
+    }
+    
+    .country-container{
+        flex-direction: column;
+        padding: 0px 20px;
+    }
+
+    .country-flag{
+        width: 350px;
+        height: 230px;
+    }
+    
+    .country-infos{
+        width: 100vw;
+        height: auto;
+        gap: 15px;
+        justify-content: center;
+        padding-bottom: 30px;
+    }
+
+    .country-infos-second{
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        padding-bottom: 20px;
+    }
+    
+    .box-border{
+        width: 60px;
+        height: 25px;
+        font-size: 12px;
+    }
+    
+    .borders-container{
+        gap: 10px;
+    }
+    
+}
