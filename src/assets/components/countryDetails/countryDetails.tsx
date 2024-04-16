@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { useParams, Link } from "react-router-dom";
 import './countryDetails.css'
+import { FaRegMoon, FaMoon } from "react-icons/fa";
 
 export default function CountryDetails() {
 
@@ -18,7 +19,10 @@ export default function CountryDetails() {
     }, [])
 
     return (
-        <div>
+        <div id="card-dtls">
+             <div className='header'>
+                <h1>Where in the world?</h1>
+            </div>
             <div className="btn-container">
                 <Link to='/'>
                     <button className="back-btn">Back</button>

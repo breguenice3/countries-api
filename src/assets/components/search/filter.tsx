@@ -12,7 +12,7 @@ export default function Filter({filter, setFilter}: React.ComponentState) {
 
     return (
         <select onChange={selectOption}>
-            <option className="option" value=" ">Filter by Region</option>
+            <option className="option" value="">Filter by Region</option>
             <option className="option" value="Africa">
                 Africa
             </option>

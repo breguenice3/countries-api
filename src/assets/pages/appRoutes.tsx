@@ -3,7 +3,7 @@ import Cards from "../components/cards/cards"
 import Country from "./country"
 
 export default function AppRoutes() {
-    
+
     return (
         <BrowserRouter>
             <Routes>
