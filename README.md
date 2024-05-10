@@ -2,6 +2,10 @@
 
 ![Design preview for the REST Countries API with color theme switcher coding challenge](./design/desktop-preview.jpg)
 
+## Detalhes
+
+Projeto feito com React & Typescript e React Routes, desafio do frontend mentor que conta com uma API com todos os países e suas devidas bandeiras e fronteiras, onde ao clicar no card você é redirecionado para a pagina do país para ver seus detalhes como nome, população e países de fronteira, além de contar com um filtro e barra de pesquisa por país.
+
 ## Welcome! 👋
 
 Thanks for checking out this front-end coding challenge.
